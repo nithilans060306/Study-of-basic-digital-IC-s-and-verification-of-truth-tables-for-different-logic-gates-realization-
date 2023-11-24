@@ -97,5 +97,5 @@ endmodule
 ## Timing Diagram:
 ![image](https://github.com/nithilans060306/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473026/604b6a18-eecd-4a7e-90a4-0c7a0abcf3cc)
 
-Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
