@@ -1,4 +1,4 @@
-# Experiment--01-Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
+# Experiment -01 Study of basic digital IC s and verification of truth tables for different logic gates realization
 
 ## Name: Nithilan
 
@@ -67,32 +67,24 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 
 ## Program:
+```
 module flipflops (A,B,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
-
 input A,B;
-
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
-
 and (Y1,A,B);
-
 or (Y2,A,B);
-
 not (Y3,A);
-
 xor (Y4,A,B);
-
 nor (Y5,A,B);
-
 xnor (Y6,A,B);
-
 nand (Y7,A,B);
-
-endmodule 
+endmodule
+``` 
 
 ## RTL realization:
 ![image](https://github.com/nithilans060306/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473026/cad80e21-a8a4-4b58-bcf9-b243a6105f91)
 
-## Logic symbol & Truthtable:
+## Truthtable:
 ![image](https://github.com/nithilans060306/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473026/41d4155e-b6a8-4c01-abff-ace051ed3ae7)
 
 ## Timing Diagram:
